@@ -9,6 +9,17 @@
     <script src="./script/calc.js"></script>
 </head>
 <body>
-    
+    <form onsubmit="return suma()" action="#" method="post">
+        <div class="form">
+        <input type="number" id="valor1" name="valor1" placeholder="valor 1">
+        </div>
+        
+        <div class="form">
+            <input type="number" id="valor2" name="valor2" placeholder="valor 2">
+        </div>
+        <button class="botones" type="submit">Suma</button>
+        <button class="botones" type="reset">Reinicio</button>
+        <button onclick="tomarValores()">Test</button>
+    </form>
 </body>
 </html>
